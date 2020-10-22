@@ -202,6 +202,8 @@ p {
     border: 10px solid #19647E;
     position: relative;
     margin-bottom: 2%;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 
 .container-job p {
