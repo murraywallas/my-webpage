@@ -41,6 +41,10 @@ nav {
     background-color: #Ebebeb;
 }
 
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/menu.png);
+}
+
 nav ul {
     list-style-type: none;
     width: 100%;
@@ -679,6 +683,7 @@ div ul li {
     grid-template-rows: 1fr 1fr;
     border: 0.3rem solid #1F2041;
     background-color: #Ebebeb;
+    justify-content: space-evenly;
     align-items: center;
     color: #Ebebeb;
     padding: 0.5%;
@@ -885,11 +890,11 @@ footer div a img:hover {
     
         /***LANGUAGES***/
         .language-class h4 {
-            font-size: 1.6rem;
+            font-size: 1.8rem;
         }
 
         .language-class p {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
         }
         
 
@@ -1097,11 +1102,14 @@ footer div a img:hover {
         }
         
         /***LANGUAGES***/
+        .language-class img {
+            width: 40%;
+        }
         .language-class h4 {
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
         
         .language-class p {
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
     }
